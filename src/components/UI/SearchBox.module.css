@@ -1,0 +1,31 @@
+.search-box {
+  position: absolute;
+  top:20px;
+  left:50%;
+  transform: translateX(-50%);
+  width:calc(100% - 80px);
+  height: 50px;
+  z-index: 100;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  padding:10px;
+  border-radius: 14px;
+  outline: none;
+  border:none;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media all and  (max-width:720px) {
+  .search-box {
+    width:calc(100% - 40px);
+  }
+  input {
+    font-size: 16px;
+  }
+}
+

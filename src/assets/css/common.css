@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "GOSEONGGEUMGANGNURI";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GOSEONGGEUMGANGNURI.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dolbomche_R";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_R.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Dolbomche_R", "Noto Sans KR";
+  font-weight: 400;
+  color: #000;
+  background-color: #e9ebf6;
+}
+
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: #e9ebf6;
+}
+
+.contents {
+  position: relative;
+  height: calc(100% - 90px);
+  min-height: calc(100% - 90px);
+}
+.weather-page, .env-page {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+@media all and  (max-width:720px) {
+ 
+  .contents {
+    position: relative;
+    height: calc(100% - 65px);
+    min-height: calc(100% - 65px);
+  }
+}
+

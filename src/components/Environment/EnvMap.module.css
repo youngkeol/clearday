@@ -1,0 +1,102 @@
+.map-box {
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+.infowindow-box {
+  background-color: #fff;
+  box-shadow: 2px 8px 10px rgba(0,0,0,0.3);
+}
+
+.infowindow-header {
+  font-family: 'GOSEONGGEUMGANGNURI';
+  color: #292929;
+  padding: 12px 12px 6px 12px;
+}
+
+.infowindow-header>h4 {
+  padding-right: 30px;
+  font-size: 19px;
+}
+
+.infowindow-close-btn {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  line-height: 17px;
+  font-size: 18px;
+  border-radius: 6px;
+  text-align: center;
+  --background-color: #7a7a7a;
+  --color: #fff;
+  color:#4b4b4b;
+  font-weight: normal;
+}
+
+.infowindow-body {
+  font-family: 'GOSEONGGEUMGANGNURI';
+  color: #4d4d4d;
+  padding: 6px 12px 12px 12px;
+  font-size: 16px;
+}
+
+.infowindow-body-con {
+  position: relative;
+  padding-left: 12px;
+}
+
+.infowindow-body-con:first-child {
+  margin-bottom: 7px;
+}
+
+.infowindow-body-con sub {
+  position: relative;
+  top: -3px;
+  font-size: 12px;
+}
+
+.infowindow-body-con::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: #7e818d;
+  border-radius: 3px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -3px;
+}
+
+.infowindow-body-con.gray::before {
+  background-color: #7e818d;
+}
+
+.infowindow-body-con.green::before {
+  background-color: #3ed388
+}
+
+
+.infowindow-body-con.blue::before {
+  background-color: #609fea;
+}
+
+
+.infowindow-body-con.yellow::before {
+  background-color: #f4ba53;
+}
+
+.infowindow-body-con.red::before {
+  background-color: #f2574d;
+}
+
+
+.infowindow-body-info {
+  font-size: 12px;
+  padding-top: 10px;
+  font-family: "Dolbomche_R", "Noto Sans KR";
+}

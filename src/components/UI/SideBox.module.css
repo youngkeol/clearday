@@ -1,0 +1,110 @@
+/*side-box*/
+.side-box {
+  position: absolute;
+  top:90px;
+  right: 40px;
+  width: 400px;
+  height: auto;
+  background-color: rgba(255,255,255,1);
+  border-radius: 20px;  
+  padding:22px 20px;
+  overflow: auto;
+  box-shadow: 2px 8px 10px rgba(0,0,0,0.1);
+}
+
+.side-box.active {
+  right: 20px;
+}
+
+.side-box-tit {
+  font-family: 'GOSEONGGEUMGANGNURI';
+  font-size: 28px;
+  margin-bottom: 4px;
+  padding-right: 20px;
+}
+
+.side-box-close-btn {
+  position: absolute;
+  right:10px;
+  top:10px;
+  width:28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  --background-color: #adadad;
+}
+
+.side-box-close-btn  span {
+  position: absolute;
+  top:50%;
+  left:50%;
+  width:16px;
+  height:3px;
+  background-color: #000;
+  border-radius: 10px;
+  transform:  translate(-50%, -50%) rotate(45deg);
+}
+
+.side-box-close-btn  span:last-of-type {
+  transform: translate(-50%, -50%) rotate(-45deg) ;
+}
+
+
+
+
+.side-box-close-btn:hover {
+  transform: rotate(365deg);
+  animation: rotate 2s linear infinite;
+}
+
+
+/* 애니메이션 정의 */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); /* 시작 위치 */
+  }
+  50% {
+    transform: rotate(180deg); /* 다시 원래 위치로 */
+  }
+
+  100% {
+    transform: rotate(360deg); /* 다시 원래 위치로 */
+  }
+}
+.side-box-addr {
+  font-size: 14px;
+  color:#474747;
+  word-break:keep-all;
+}
+
+
+.side-box-date {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+
+@media all and  (max-width:720px) {
+  .side-box {
+    width:calc(100% - 40px);
+    max-height: calc(100% - 120px);
+    right: unset;
+    left:0;
+    top: 70px;
+    left:50%;
+    transform: translateX(-50%)
+  }
+
+  .side-box-tit {
+    font-size: 22px;
+    margin-top:-20px;
+  }
+
+  .side-box-close-btn {
+    position: sticky;
+    top:5px; 
+    left:100%;
+    background: #fff;
+  }
+
+}

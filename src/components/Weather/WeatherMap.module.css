@@ -1,0 +1,32 @@
+.infowindow-box {
+  min-width:90px;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease; /* 트랜지션을 기본으로 설정 */
+}
+.infowindow-box.active {
+  min-width:90px;
+  text-align: center;
+  z-index: 10000;
+  padding: 15px 20px;
+  transform: scale(1.2);
+  transition: all 0.1s;
+  transform-origin: center; /* 확대되는 중심을 설정 (가운데) */
+  transition: all 0.1s ease-in-out; /* 트랜지션을 더 부드럽게 */
+}
+
+
+.infowindow-tit {
+  font-size: 14px;
+  font-family: "GOSEONGGEUMGANGNURI";
+}
+
+.infowindow-icon {
+  width: 40px;
+}
+
+.infowindow-temp-humid {
+  font-size: 13px;
+  font-family: "GOSEONGGEUMGANGNURI";
+}

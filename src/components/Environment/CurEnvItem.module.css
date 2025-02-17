@@ -1,0 +1,43 @@
+
+.env-list-item {
+  width:33.33%;
+  text-align: center;
+  font-family: 'GOSEONGGEUMGANGNURI';
+}
+.env-tit {
+  margin-bottom:10px;
+}
+
+.env-tit span {
+  display: block;
+  font-size: 14px;
+}
+
+.env-tit span sub {
+  position: relative;
+  vertical-align: baseline;
+  top: 2px;
+  font-size: 0.7rem;
+}
+
+
+.env-icon {
+  margin-bottom:10px;
+}
+
+.env-icon img {
+  width: 50px;
+}
+
+.env-data {
+  font-size: 15px;
+}
+
+.env-data sub {
+  vertical-align: baseline;
+  font-size: 0.7rem;
+}
+
+.env-data span {
+  display: block;
+}
