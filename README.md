@@ -1,7 +1,7 @@
-# t 없이 맑음
+# t 없이 맑은 날
 
 ### 📑목차<br>
-- [🌤 ️t 없이 맑음 소개](#user-content--️t-없이-맑음-소개)<br>
+- [🌤 ️t 없이 맑은 날 소개](#user-content--️t-없이-맑은-날-소개)<br>
 - [🛠 사용 기술](#user-content-️-사용기술)<br>
 - [👍🏻 후기](#user-content--후기)<br>
 
@@ -9,16 +9,16 @@
 <br>
 <br>
 
-### 🌤 ️t 없이 맑음 소개
-t 없이 맑음은 날씨와 미세먼지를 표출해주는 웹 애플리케이션입니다.<br>
+### 🌤 ️t 없이 맑은 날 소개
+t 없이 맑은 날은 날씨와 대기환경(미세먼지)를 표출해주는 웹 애플리케이션입니다.<br>
 React.js를 사용하여 개발되었으며, 공공데이터 포털 API(기상청 날씨, 에어코리아 미세먼지)를 사용하여 데이터를 불러오고, 구글 맵을 통해 화면에 표출했습니다.
 
 
-1. 날씨 화면
-![1_날씨 화면](https://private-user-images.githubusercontent.com/41726750/413736598-50f2d24e-e214-4831-a93e-5eb3c03a78b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MTE0MjUsIm5iZiI6MTczOTgxMTEyNSwicGF0aCI6Ii80MTcyNjc1MC80MTM3MzY1OTgtNTBmMmQyNGUtZTIxNC00ODMxLWE5M2UtNWViM2MwM2E3OGI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDE2NTIwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1NzdkNjEzMzc3ZmJhNzJmYTIyYTM0YmFhZjUyY2ZhNjAyMDhlZjhkYzY4OWRlMjQ1NmE4N2EwMjM2MzBkNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.v4eh_JcCxBCawCs9ngZzEgJC1C1TcJlcaFSlcJWgshA)<br>
+1. 날씨 현황 화면
+![1_날씨 화면](https://private-user-images.githubusercontent.com/41726750/413736598-50f2d24e-e214-4831-a93e-5eb3c03a78b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NTg2NTEsIm5iZiI6MTczOTg1ODM1MSwicGF0aCI6Ii80MTcyNjc1MC80MTM3MzY1OTgtNTBmMmQyNGUtZTIxNC00ODMxLWE5M2UtNWViM2MwM2E3OGI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE4VDA1NTkxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNDEwY2M3YjQzNTMyMmNmNTcwNjFkODk3ZmQxMmRlMDQ4MjhiZGUyYmVkMTBkYTFiODk1OWQ0YTMzZmQ1MmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.I6EScA2ANJHjZkkAqgYP33ZwpFTzY-rt3jJaVUv-8ww)<br>
 
-2. 미세먼지 화면
-![2_미세먼지 화면](https://private-user-images.githubusercontent.com/41726750/413736601-9543a176-7e75-422a-8f5f-7d9aef5f71b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MTE0MjUsIm5iZiI6MTczOTgxMTEyNSwicGF0aCI6Ii80MTcyNjc1MC80MTM3MzY2MDEtOTU0M2ExNzYtN2U3NS00MjJhLThmNWYtN2Q5YWVmNWY3MWI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE3VDE2NTIwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ4ZTFmYzlmZjhkMDI5Nzg5MmNiZDI2ZThkOWI5MTFmNjlkOTE5OWEwZmJmNjhmNGE4YTI1NGZjODMyYmY0NzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6CBPcUbSIObIftOoYs7Bi_mqPjT9ZJMYiR8iAFt2A8Q)<br>
+2. 대기환경 현황 화면
+![2_대기환경 화면](https://private-user-images.githubusercontent.com/41726750/413736601-9543a176-7e75-422a-8f5f-7d9aef5f71b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4NTg2NTEsIm5iZiI6MTczOTg1ODM1MSwicGF0aCI6Ii80MTcyNjc1MC80MTM3MzY2MDEtOTU0M2ExNzYtN2U3NS00MjJhLThmNWYtN2Q5YWVmNWY3MWI1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE4VDA1NTkxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2OGI5MTMxMTNlODc0NGQxNWQ3YjRhYmRiYzU4NWMxZTliZjFmY2NlNmQxMzJkZGQ0MTk3ZGExZTMyYzNhNjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SDnp2tbiADQWxXS9YyK2mz24CEeYI-xIy9nddYD-0oo)<br>
 <br>
 <br>
 <br>
