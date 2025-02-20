@@ -15,10 +15,10 @@ React.js를 사용하여 개발되었으며, 공공데이터 포털 API(기상�
 
 
 1. 날씨 현황 화면
-![1_날씨 화면](https://private-user-images.githubusercontent.com/41726750/414842416-455b813a-69a9-4e4b-ab80-4a0e40816b12.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk5ODc5MTcsIm5iZiI6MTczOTk4NzYxNywicGF0aCI6Ii80MTcyNjc1MC80MTQ4NDI0MTYtNDU1YjgxM2EtNjlhOS00ZTRiLWFiODAtNGEwZTQwODE2YjEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE5VDE3NTMzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVmZjU4NzA0MTlmYTM1MTE5MGEwN2ZlNGJhMzBhZWY0MTk5MTA5ODlkYzgyM2E2ZDAwMzZhODVmYjhmMDNjODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.n47HJOdaW-FgJPsI-YNVCQP3paxlIzE98yCuLhOH-JA)<br>
+![1_날씨 화면](https://github.com/youngkeol/clearday/blob/main/readme_images/cleanday01.png)<br>
 
 2. 대기환경 현황 화면
-![2_대기환경 화면](https://private-user-images.githubusercontent.com/41726750/414842435-f82c9be5-3bb9-4991-93e5-bcbf2ae74380.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk5ODc5MTcsIm5iZiI6MTczOTk4NzYxNywicGF0aCI6Ii80MTcyNjc1MC80MTQ4NDI0MzUtZjgyYzliZTUtM2JiOS00OTkxLTkzZTUtYmNiZjJhZTc0MzgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE5VDE3NTMzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiYzNjMjQ1M2RmZmRjOTA0Mjc2M2QxZmRhYmRmOWQ1NzQxODQzYWRjOGUzYmE5NTZkZjRlMTU5MzFhYmY2NjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KolRDn8lQZI3Jo6nVZ7R65hN2VGwWwTAmEbCXbW6WM0)<br>
+![2_대기환경 화면](https://github.com/youngkeol/clearday/blob/main/readme_images/cleanday02.png)<br>
 <br>
 <br>
 <br>
